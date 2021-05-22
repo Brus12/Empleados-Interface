@@ -91,6 +91,8 @@ namespace WindowsFormsEmpleadosInterfaz
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -697,11 +699,33 @@ namespace WindowsFormsEmpleadosInterfaz
             this.label1.TabIndex = 16;
             this.label1.Text = "Empleados Interface";
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(68, 583);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(161, 13);
+            this.label28.TabIndex = 31;
+            this.label28.Text = "Gustavo Mayorga Gutierrez";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(10, 566);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(238, 13);
+            this.label27.TabIndex = 30;
+            this.label27.Text = "Creadores: Bruno Uriel Flores Hernández";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 583);
+            this.ClientSize = new System.Drawing.Size(800, 605);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.label27);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.lstCont);
             this.Controls.Add(this.label9);
@@ -796,6 +820,8 @@ namespace WindowsFormsEmpleadosInterfaz
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
     }
 }
 
